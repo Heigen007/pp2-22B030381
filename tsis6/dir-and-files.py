@@ -42,6 +42,7 @@ import os
 # for i in file:
 #     cnt+=1
 # print(cnt)
+# file.close()
 
 # 5
 # l = [1, 2, 3, 4, 5]
@@ -49,6 +50,7 @@ import os
 # file.write(str(l) + '\n')
 # file.seek(0)
 # print(file.read())
+# file.close()
 
 # # 6
 # cod = 65
@@ -66,6 +68,9 @@ import os
 # b = a.read()
 # c = open("v_copy.txt", "w")
 # c.write(b)
+# c.close()
+# a.close()
+
 
 # # 8
 # p = r"C:\Users\Admin\Desktop\pp2-22B030386\tsis6\deleteme.txt"
