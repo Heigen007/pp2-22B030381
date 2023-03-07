@@ -61,9 +61,10 @@ import re
 
 # pattern = r'(_\w)'
 
-# camel_case_string = re.sub(pattern, lambda x: x.group(1)[1:].upper(), string)
+# camel_case_string = re.sub(pattern, lambda x: x.group(1)[1].upper(), string)
 
 # print("The camel case string is:", camel_case_string)
+
 
 # # Program to split a string at uppercase letters:
 
@@ -89,10 +90,10 @@ import re
 # # Program to convert a given camel case string to snake case:
 
 
-string = input("Enter a camel case string: ")
+# string = input("Enter a camel case string: ")
 
-pattern = r'([A-Z])'
+# pattern = r'([A-Z])'
 
-snake_case_string = re.sub(pattern, r'_\1', string).lower()
+# snake_case_string = re.sub(pattern, r'_\1', string).lower()
 
-print("The snake case string is:", snake_case_string)
+# print("The snake case string is:", snake_case_string)

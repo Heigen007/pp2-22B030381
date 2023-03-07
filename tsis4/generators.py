@@ -8,14 +8,14 @@ def squares(n):
 #     print(i)
 
 
-def filter(n):
+def filterEven(n):
     for i in range(n):
         if i % 2 == 0:
             yield i
 
 
 # num = int(input())
-# b = filter(num)
+# b = filterEven(num)
 # for i in b:
 #     print(i)
 

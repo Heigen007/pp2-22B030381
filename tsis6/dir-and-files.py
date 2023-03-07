@@ -1,10 +1,10 @@
 import os
 
 # #1
-# pth = r"C:\Users\Admin\Desktop\pp2-22B030386"
+# pth = r"C:\Users\grigo\OneDrive\Documents\GitHub\pp2-22B030381\tsis6"
 # print(os.listdir(pth))
 ##2
-# path = r"C:\Users\Admin\Desktop\pp2-22B030386\tsis6\v.txt"
+# path = r"C:\Users\grigo\OneDrive\Documents\GitHub\pp2-22B030381\tsis6\v.txt"
 # if not os.path.exists(path):
 #     print(f"{path} does not exist.")
 # else:
@@ -28,7 +28,7 @@ import os
 #     else:
 #         print(f"{path} is executable.")
 # # 3
-# pth = r"C:\Users\Admin\Desktop\pp2-22B030386"
+# pth = r"C:\Users\grigo\OneDrive\Documents\GitHub\pp2-22B030381\tsis6"
 # if os.path.isdir(pth):
 #     print("exist", os.path.basename(pth))
 #     print(pth.split("\\"))
@@ -59,7 +59,7 @@ import os
 #     cod += 1
 # cod2 = 90
 # while cod2 > 64:
-#     d = fr"C:\Users\Admin\Desktop\pp2-22B030386\tsis6\{chr(cod2)}.txt"
+#     d = fr"C:\Users\grigo\OneDrive\Documents\GitHub\pp2-22B030381\tsis6\{chr(cod2)}.txt"
 #     os.remove(d)
 #     cod2 -= 1
 
@@ -71,9 +71,8 @@ import os
 # c.close()
 # a.close()
 
-
 # # 8
-# p = r"C:\Users\Admin\Desktop\pp2-22B030386\tsis6\deleteme.txt"
+# p = r"C:\Users\grigo\OneDrive\Documents\GitHub\pp2-22B030381\tsis6\deleteme.txt"
 # if os.path.exists(p):
 #     os.remove(p)
 # else:
