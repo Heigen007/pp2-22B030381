@@ -3,11 +3,11 @@ import os
 
 pygame.init()
 sc = pygame.display.set_mode((1, 1), pygame.NOFRAME)
-pygame.mixer.music.load(r"C:\Users\Admin\Desktop\pp2-22B030386\tsis7\musics\Red Hot Chili Peppers — Can't Stop.mp3")
+pygame.mixer.music.load("./musics/Red Hot Chili Peppers — Can't Stop.mp3")
 pygame.mixer.music.play()
 check = True
 p = False
-play_list = os.listdir(r"C:\Users\Admin\Desktop\pp2-22B030386\tsis7\musics")
+play_list = os.listdir("./musics")
 while check:
     for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
